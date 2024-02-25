@@ -1,0 +1,72 @@
+
+body{
+    margin: 0;
+    padding: 0;
+   
+    h4{font-family: papyrus; font-size: 20px; font-weight: 300; text-align: center; color:rgb(255, 237, 197);}
+    h1{font-style: italic;  font-size: 50px; text-align: center; color:rgb(255, 255, 255);}
+    h2{font-style: italic;  font-size: 20px; text-align: center; color:rgb(255, 255, 255);}
+    h3{ font-style : italic; font-size: 15px; font-weight: 300; text-align: center; color:rgb(69, 54, 30);}
+ p{font-family: Cambria Math;color:rgb(255, 255, 255);}
+ .tsts{font-family: Cambria Math;text-align: center; text-align: center;color:rgb(81, 81, 81); filter: blur(0.5px);}
+}
+section{
+    padding: 20px;
+}
+.he11{
+    background-color: #000000;
+    color: white;
+    padding: 10px ;
+    text-align: center;
+    font-family: Pristina;
+}
+form{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin:0 auto;
+  }
+h1{
+    margin: 0;
+}
+li{
+    margin-bottom: 10px ;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    
+}
+section{
+    padding: 10px;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.card{
+    -webkit-text-stroke-color: aliceblue;
+    text-decoration: aliceblue;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
+.ggg{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.ggg textarea{
+    position: sticky;
+    background-color: blur;
+    border: none;
+    outline: auto;
+    padding: 10px;
+    resize: none;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.567);
+}
+

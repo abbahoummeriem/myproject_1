@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reservation.css">
+    <title>Reservation </title>
+</head>
+
+<body>
+  <header>
+        <h1>Réservation</h1>
+ </header>
+    <section >
+        <h2 style="text-align: center; font-family: papyrus;">Bienvenue au Restaurant Palais des Délices </h2>
+    <form name="traitement" method="post" action="reservation.html">
+       <div class="inputbox"> 
+        <label for="nom">Nom : </label>
+        <input type="text" id="nom" name="nom"  placeholder="Nom"required> <br><br>
+    </div>
+    <div class="inputbox">     
+    <label for="prenom"> Prénom : </label>
+        <input type="text" id="prénom" name="prénom"  placeholder="Prénom"required> <br><br>
+    </div>
+    <div class="inputbox"> 
+        <label for="Email">Email: </label>
+        <input type="email" placeholder="exemple@gmail.com" required/> <br><br/>
+    </div>
+    <div class="inputbox"> 
+        <label for="date_reservation">Date de réservation : </label>
+        <input type="date" id="date_reservation" name="date_reservation" required> <br><br>
+    </div>
+    <div class="inputbox"> 
+        <label for="heure_reservation">Heure de réservation : </label>
+        <input type="time" id="heure_reservation" name="heure_reservation" required> <br><br>
+    </div>
+    <div class="inputbox"> 
+        <label for="nombre_personnes">Nombre de personnes : </label>
+        <input type="number" id="nombre_personnes" name="nombre_personnes" min="1" required> <br><br>
+    </div>
+        <input type="submit" value="Réserver">
+
+    </form>
+</section>
+</body>
+</html>

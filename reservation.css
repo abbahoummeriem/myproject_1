@@ -1,0 +1,62 @@
+body{font-family: Arial, sans-serif;
+    margin: 0%;
+    padding: 0%;
+    background-image:url('platflou.jpg');background-size: cover; background-repeat: no-repeat; background-position: center;}
+    header{
+        background-color: #000000;
+        color: white;
+        padding: 10px ;
+        text-align: center;
+        font-family: Vladimir script;
+    }
+    h1{
+        margin: 0;
+       -webkit-background-clip: text;
+       background-clip: text;
+       
+        background-image:url(platflou.jpg);
+    }
+    li{
+        margin-bottom: 10px ;
+    }
+    section{
+        padding: 20px;
+    }
+    ul{
+        list-style-type: none;
+        padding: 0;
+    }
+  form{
+    background-blend-mode: color;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 20px 5px rgba(0,0, 0, 0.2);
+    max-width: 400px;
+    margin:0 auto;
+  }
+  .inputbox input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #9090904b;
+    background: transparent;
+    border-radius: 5px;
+    box-sizing: border-box;
+    
+}
+input[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.inputbox label{
+    font-family:papyrus;
+}
+
+    
+    
+    
